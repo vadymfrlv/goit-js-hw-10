@@ -13,7 +13,7 @@ const refs = {
   countryInfo: document.querySelector('.country-info'),
 };
 
-const onFormSearch = e => {
+const onFormSearch = () => {
   refs.countryInfo.innerHTML = '';
   refs.countryList.innerHTML = '';
 
